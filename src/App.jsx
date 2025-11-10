@@ -8,12 +8,11 @@ import Education from './components/Education'
 import Contact from './components/Contact'
 
 function App() {
-  const profileSrc = '/profile.jpg' // replace with uploaded image path in public/
   return (
     <div className="min-h-screen bg-white dark:bg-slate-950 text-slate-900 dark:text-slate-100">
       <Navbar />
       <main className="pt-24">
-        <Hero profileSrc={profileSrc} />
+        <Hero />
         <About />
         <Skills />
         <Projects />
